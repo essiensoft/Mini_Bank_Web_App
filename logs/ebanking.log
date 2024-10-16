@@ -15,3 +15,8 @@
 2024-10-16 09:18:48 INFO  ebanking:12 - URL open
 2024-10-16 09:18:48 INFO  ebanking:15 - User name entered
 2024-10-16 09:18:49 INFO  ebanking:48 - Test execution completed. Closing the browser.
+2024-10-16 14:43:33 INFO  ebanking:38 - Driver initialized and e-banking test setup started.
+2024-10-16 14:43:33 INFO  ebanking:39 - Navigating to: http://demo.guru99.com/v3/index.php
+2024-10-16 14:43:40 INFO  ebanking:12 - URL open
+2024-10-16 14:43:40 INFO  ebanking:15 - User name entered
+2024-10-16 14:43:41 INFO  ebanking:48 - Test execution completed. Closing the browser.
