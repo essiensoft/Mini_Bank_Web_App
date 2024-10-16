@@ -1,6 +1,9 @@
 package com.inetBankingV1.testCases;
 
 import com.inetBankingV1.utilities.ReadConfig;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -9,6 +12,9 @@ import org.testng.annotations.BeforeClass;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Parameters;
+
+import java.io.File;
+import java.io.IOException;
 
 public class BaseClass {
 	ReadConfig readConfig = new ReadConfig();
@@ -49,4 +55,12 @@ public class BaseClass {
 		// Quit the driver
 		driver.quit();
 	}
+	public void captureScreen(WebDriver driver, String tname) throws IOException {
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File source = ts.getScreenshotAs(OutputType.FILE);
+		File target = new File(System.getProperty("user.dir")+"/Screenshots/"+tname+".png");
+		FileUtils.copyFile(source, target);
+		System.out.println("Screenshot captured");
+	}
 }
+

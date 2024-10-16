@@ -4,10 +4,12 @@ import com.inetBankingV1.pageObjects.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class tcLogintest001 extends BaseClass {
 
     @Test
-    public void testLogin() {
+    public void testLogin() throws IOException {
         driver.get(baseUrl);
         logger.info("URL open");
         LoginPage lp = new LoginPage(driver);
@@ -17,9 +19,10 @@ public class tcLogintest001 extends BaseClass {
 
         lp.clickSubmit();
 
-        if (driver.getTitle().equals("Guru99 Bank Manager HomePage")){
+        if (driver.getTitle().equals("Guru99 Baank Manager HomePage")){
             Assert.assertTrue(true);
         }else {
+           captureScreen(driver, "testLogin");
             Assert.fail();
         }
 
