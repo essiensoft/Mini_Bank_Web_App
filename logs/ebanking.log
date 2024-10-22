@@ -1,27 +1,24 @@
-2024-10-16 04:51:40 INFO  ebanking:31 - Driver initialized and e-banking test setup started.
-2024-10-16 04:51:40 INFO  ebanking:32 - Navigating to: http://demo.guru99.com/v3/index.php
-2024-10-16 04:52:40 INFO  ebanking:31 - Driver initialized and e-banking test setup started.
-2024-10-16 04:52:40 INFO  ebanking:32 - Navigating to: http://demo.guru99.com/v3/index.php
-2024-10-16 04:52:46 INFO  ebanking:12 - URL open
-2024-10-16 04:52:46 INFO  ebanking:15 - User name entered
-2024-10-16 04:52:47 INFO  ebanking:41 - Test execution completed. Closing the browser.
-2024-10-16 09:08:58 INFO  ebanking:38 - Driver initialized and e-banking test setup started.
-2024-10-16 09:08:58 INFO  ebanking:39 - Navigating to: http://demo.guru99.com/v3/index.php
-2024-10-16 09:09:02 INFO  ebanking:12 - URL open
-2024-10-16 09:09:02 INFO  ebanking:15 - User name entered
-2024-10-16 09:09:03 INFO  ebanking:48 - Test execution completed. Closing the browser.
-2024-10-16 09:18:42 INFO  ebanking:38 - Driver initialized and e-banking test setup started.
-2024-10-16 09:18:42 INFO  ebanking:39 - Navigating to: http://demo.guru99.com/v3/index.php
-2024-10-16 09:18:48 INFO  ebanking:12 - URL open
-2024-10-16 09:18:48 INFO  ebanking:15 - User name entered
-2024-10-16 09:18:49 INFO  ebanking:48 - Test execution completed. Closing the browser.
-2024-10-16 14:43:33 INFO  ebanking:38 - Driver initialized and e-banking test setup started.
-2024-10-16 14:43:33 INFO  ebanking:39 - Navigating to: http://demo.guru99.com/v3/index.php
-2024-10-16 14:43:40 INFO  ebanking:12 - URL open
-2024-10-16 14:43:40 INFO  ebanking:15 - User name entered
-2024-10-16 14:43:41 INFO  ebanking:48 - Test execution completed. Closing the browser.
-2024-10-16 15:03:26 INFO  ebanking:44 - Driver initialized and e-banking test setup started.
-2024-10-16 15:03:26 INFO  ebanking:45 - Navigating to: http://demo.guru99.com/v3/index.php
-2024-10-16 15:03:36 INFO  ebanking:14 - URL open
-2024-10-16 15:03:36 INFO  ebanking:17 - User name entered
-2024-10-16 15:03:38 INFO  ebanking:54 - Test execution completed. Closing the browser.
+2024-10-22 14:13:08 INFO  ebanking:45 - Driver initialized and e-banking test setup started.
+2024-10-22 14:13:08 INFO  ebanking:46 - Navigating to: http://demo.guru99.com/V3/index.php
+2024-10-22 14:13:15 INFO  ebanking:21 - user name provided
+2024-10-22 14:13:15 INFO  ebanking:23 - password provided
+2024-10-22 14:13:20 INFO  ebanking:21 - user name provided
+2024-10-22 14:13:20 INFO  ebanking:23 - password provided
+2024-10-22 14:13:24 INFO  ebanking:21 - user name provided
+2024-10-22 14:13:24 INFO  ebanking:23 - password provided
+2024-10-22 14:13:28 INFO  ebanking:21 - user name provided
+2024-10-22 14:13:28 INFO  ebanking:23 - password provided
+2024-10-22 14:13:32 INFO  ebanking:21 - user name provided
+2024-10-22 14:13:32 INFO  ebanking:23 - password provided
+2024-10-22 14:13:37 INFO  ebanking:21 - user name provided
+2024-10-22 14:13:37 INFO  ebanking:23 - password provided
+2024-10-22 14:13:41 INFO  ebanking:39 - Login passed
+2024-10-22 14:13:45 INFO  ebanking:56 - Test execution completed. Closing the browser.
+2024-10-22 14:20:57 INFO  ebanking:45 - Driver initialized and e-banking test setup started.
+2024-10-22 14:20:57 INFO  ebanking:46 - Navigating to: http://demo.guru99.com/V3/index.php
+2024-10-22 14:21:04 INFO  ebanking:16 - User name entered
+2024-10-22 14:21:17 INFO  ebanking:56 - Test execution completed. Closing the browser.
+2024-10-22 14:24:20 INFO  ebanking:45 - Driver initialized and e-banking test setup started.
+2024-10-22 14:24:20 INFO  ebanking:46 - Navigating to: http://demo.guru99.com/V3/index.php
+2024-10-22 14:24:24 INFO  ebanking:16 - User name entered
+2024-10-22 14:24:38 INFO  ebanking:56 - Test execution completed. Closing the browser.
