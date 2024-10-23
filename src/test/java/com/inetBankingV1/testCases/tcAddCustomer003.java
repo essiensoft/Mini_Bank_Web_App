@@ -15,16 +15,17 @@ public class tcAddCustomer003 extends BaseClass{
         lp.setUserName(username);
         logger.info("User name entered");
         lp.setPassword(password);
+        logger.info("User name entered");
         lp.clickSubmit();
 
         Thread.sleep(3000);
-
+        logger.info("Providing user details");
         AddCustomerPage  addCust = new AddCustomerPage(driver);
         addCust.clickAddCustomer();
         addCust.CustomerName("Felix");
         addCust.CustomerGender("Male");
         addCust.CustomerDOB("10", "22", "2024");
-        Thread.sleep(3000);
+        Thread.sleep(5000);
         addCust.CustomerAddress("Accra Street");
         addCust.CustomerCity("London");
         addCust.CustomerState("NY");

@@ -19,11 +19,11 @@ public class tcLogintest001 extends BaseClass {
 
         lp.clickSubmit();
 
-        if (driver.getTitle().equals("Guru99 Baank Manager HomePage")){
+        if (driver.getTitle().equals("Guru99 Bank Manager HomePage")){
             Assert.assertTrue(true);
         }else {
            captureScreen(driver, "testLogin");
-            Assert.fail();
+            Assert.assertTrue(false);
         }
 
 
